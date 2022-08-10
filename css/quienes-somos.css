@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap');
+
+
+/* Normalize */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1em;
+    color: #121113;
+}
+
+/* Header */
+
+.main-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2em;
+    font-size: 1rem;
+    background-color: #F7F7F2;
+    position: sticky;
+    top: 0px;
+}
+
+.main-header__logo{
+    max-width: 300px;
+    min-width: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-header__img{
+    align-items: center;
+    justify-content: center;
+    max-width: 30em;
+}
+
+.main-header__nav ul{
+    color: #121113;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.main-header__nav ul a{
+    color: #121113;
+    font-weight: 700;
+}
+
+.main{
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main__title{
+    margin-top: 2.5em;  
+    margin-bottom: 2.5em;
+    text-align: center;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+}
+
+main section article{
+    color: #899878;
+    font-weight: 700;
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+section img{
+    border-radius: 15px;
+}
+
+
+
+/* Footer */
+
+.footer{
+    padding: 2em;
+    color: #E4E6C3;
+    background-color: #222725;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer ul li a {
+    color: #E4E6C3;
+}
+
+.footer__logo img{
+    max-width: 288px;
+    max-height: 93px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 480px) {
+    .main-header__nav ul{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:530px) {
+    .footer{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 2em;
+}
+}
+
+

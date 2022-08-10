@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Inicio Header */
+
+.main-header { 
+    background-color: #F7F7F2;
+    font-weight: bold;
+    text-align: center;
+    height: 200px;
+    padding: 8px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+}
+
+.main-header__img {
+    width: 400px;
+    height: 120px;
+}
+
+.main-header__nav ul li{
+    display: inline;
+}
+
+.main-header__nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;    
+}
+
+/* Fin Header */
+
+/* Inicio Main */
+
+main{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+main h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight:bolder;
+    color: #222725;
+}
+
+/* Secciones */
+
+section{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+section h2{
+    color: #899878;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+section h3{
+    color: #222725;
+    margin-bottom: 20px;
+}
+
+section div img{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+section ol {
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-left: 170px;
+}
+
+section ol li {
+    text-align: left;
+    margin-bottom: 10px;    
+    color: #222725;
+}
+
+/* Inicio Footer */
+
+.footer{
+    background-color: black;
+    padding: 20px;
+    height: 270px;
+}
+
+.footer__nav h3{
+    color: #E4E6C3;
+    border: 5px;
+}
+
+.footer__nav ul li a{
+    color: #F7F7F2;
+    text-decoration: none;
+}
+
+.footer__nav{
+    margin: 10px;
+    width: 15vw;
+    display: inline-block;    
+}
+
+.footer__info{
+    width: 45vw;
+    display: inline-block;
+    position: relative;
+    bottom: 2.8vw;
+}
+
+.footer__info h3{
+    color: #E4E6C3;
+    border: 5px;
+} 
+
+.footer__info ul li{
+    color: #F7F7F2;
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer__info ul li a{
+    color: #F7F7F2;
+    text-decoration: none;
+}
+
+.footer__logo img{
+    position: relative;
+    left: 2vw;
+}
+
+/* Fin Footer */

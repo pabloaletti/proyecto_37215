@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Inicio Header */
+
+.main-header { 
+    background-color: #F7F7F2;
+    font-weight: bold;
+    text-align: center;
+    height: 200px;
+    padding: 8px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+}
+
+.main-header__img {
+    width: 400px;
+    height: 120px;
+}
+
+.main-header__nav ul li{
+    display: inline;
+}
+
+.main-header__nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;    
+}
+
+/* Fin Header */
+
+main{
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+main h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+main section{
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: #E4E6C3;
+    width: 70%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+main section h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main section form{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+
+
+
+/* Inicio Footer */
+
+.footer{
+    background-color: black;
+    padding: 20px;
+    height: 270px;
+}
+
+.footer__nav h3{
+    color: #E4E6C3;
+    border: 5px;
+}
+
+.footer__nav ul li a{
+    color: #F7F7F2;
+    text-decoration: none;
+}
+
+.footer__nav{
+    margin: 10px;
+    width: 15vw;
+    display: inline-block;    
+}
+
+.footer__info{
+    width: 45vw;
+    display: inline-block;
+    position: relative;
+    bottom: 2.8vw;
+}
+
+.footer__info h3{
+    color: #E4E6C3;
+    border: 5px;
+} 
+
+.footer__info ul li{
+    color: #F7F7F2;
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer__info ul li a{
+    color: #F7F7F2;
+    text-decoration: none;
+}
+
+.footer__logo img{
+    position: relative;
+    left: 2vw;
+}
+
+/* Fin Footer */

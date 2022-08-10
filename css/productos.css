@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-header { 
+    background-color: #F7F7F2;
+    font-weight: bold;
+    text-align: center;
+    height: 200px;
+    padding: 8px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+}
+
+.main-header__img {
+    width: 400px;
+    height: 120px;
+}
+
+.main-header__nav ul li{
+    display: inline;
+}
+
+.main-header__nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;    
+}
+
+main{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.product {
+    padding: 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+.product_img{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.product_info h2{
+    font-size: 23px;
+    color: #222725;
+    padding: 1px;
+}
+
+.product_info h3{
+    font-size: 30px;
+    color: #899878;
+    padding: 3px; 
+}
+
+.product_info p{
+    font-size: 12px;
+    color: #222725;
+    padding: 3px; 
+}
+
+.btn_buy{
+    background-color: #899878;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 15px;
+    color: white;
+}
+
+.footer{
+    background-color: black;
+    padding: 20px;
+    height: 270px;
+}
+
+.footer__nav h3{
+    color: #E4E6C3;
+    border: 5px;
+}
+
+.footer__nav ul li a{
+    color: #F7F7F2;
+    text-decoration: none;
+}
+
+.footer__nav{
+    margin: 10px;
+    width: 15vw;
+    display: inline-block;    
+}
+
+.footer__info{
+    width: 45vw;
+    display: inline-block;
+    position: relative;
+    bottom: 2.8vw;
+}
+
+.footer__info h3{
+    color: #E4E6C3;
+    border: 5px;
+} 
+
+.footer__info ul li{
+    color: #F7F7F2;
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer__info ul li a{
+    color: #F7F7F2;
+    text-decoration: none;
+}
+
+.footer__logo img{
+    position: relative;
+    left: 2vw;
+}
