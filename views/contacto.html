@@ -6,52 +6,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/favicon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <title>Contacto | demates.com</title>
 </head>
 <body>
     <!-- Inicio Header -->
-    <header class="main-header">
+    <header class="main-header grad">
         <a class="main-header__logo" href="../index.html">
             <img class="main-header__img" src="../img/logo.jpg" alt="Logo del sitio demates.com">
         </a>
-        <nav class="main-header__nav">
-            <ul> 
-                <li>
-                     <a href="../index.html">INICIO</a>
-                </li>            
-                <li>
-                    <a href="../views/productos.html">PRODUCTOS</a>
-                </li>            
-                <li>
-                    <a href="../views/quienes-somos.html">QUIENES SOMOS</a>
-                </li>            
-                <li>
-                    <a href="../views/tips-materos.html">TIPS MATEROS</a>
-                </li>            
-                <li>
-                    <a href="../views/contacto.html">CONTACTO</a>
-                </li>
-            </ul>
+        <nav class="main-header__nav navbar navbar-expand-lg">            
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav"> 
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html">INICIO</a>
+                    </li>            
+                    <li class="nav-item">
+                        <a class="nav-link" href="../views/productos.html">PRODUCTOS</a>
+                    </li>            
+                    <li class="nav-item">
+                        <a class="nav-link" href="../views/quienes-somos.html">QUIENES SOMOS</a>
+                    </li>            
+                    <li class="nav-item">
+                        <a class="nav-link" href="../views/tips-materos.html">TIPS MATEROS</a>
+                    </li>            
+                    <li class="nav-item">
+                        <a class="nav-link" href="../views/contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
         </nav>
     </header>
     <!-- Fin Header -->
     <main>
         <h1>CONTACTANOS</h1>
         <section>
-            <h2>Escribinos un mensaje</h2>
-            <form action="" method="post" enctype="text/plain">
-                <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre" id="" required>
-                <label for="apellido">Apellido:</label>
-                <input type="text" name="apellido" id="" required>
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="" required>
-                <label for="telefono">Teléfono:</label>
-                <input type="tel" name="telefono" id="" required>
-                <label for="mensaje">Mensaje:</label>
-                <input type="text" name="mensaje" id="" required>
-                <input type="submit" value="Enviar">
-            </form> 
+            <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Apellido</label>
+                  <input type="text" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Dirección</label>
+                  <input type="text" class="form-control" id="inputAddress">
+                </div>
+                <div class="col-12">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="juanperez@gmail.com">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">Ciudad</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">State</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Elegir...</option>
+                    <option>Capital Federal</option>
+                    <option>Buenos Aires</option>
+                    <option>Santa Fe</option>
+                    <option>Córdoba</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">Código Postal</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Enviar Consulta</button>
+                </div>
+              </form>
         </section>
     </main>
     <!-- Inicio Footer -->
@@ -90,10 +127,11 @@
                 </li>
             </ul>
         </section>
-        <a class="footer__logo" href="../index.html">
+        <a class="footer__logo" href="./index.html">
             <img src="../img/logo.jpg" alt="Logo del sitio demates.com">
         </a>
     </footer>
-    <!-- Fin Footer -->       
+    <!-- Fin Footer -->
+    <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
