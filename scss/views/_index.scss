@@ -1,0 +1,70 @@
+/* Banner */
+
+.banner{
+    height: fit-content;
+}
+
+/* Collections */
+
+#collections{
+    background-color: white;
+    padding: 2.5em;
+}
+
+.collection{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.collection-box__title{
+    color: #222725;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.collection-box__description{
+    color: #899878;
+    font: 2rem;
+    margin-top: .1em;
+    margin-bottom: .6em;
+}
+
+.boton{
+    background-color: #899878;
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.btn-link{
+    color: white;
+    text-decoration: none;
+}
+
+.collection__img{
+    max-width: 560px;
+    max-height: 530px;
+    }
+
+/* Information */
+
+#information {
+    padding: 1%;
+    background-color: #899878;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    gap: 1rem;
+}
+
+.info{
+    text-align: center;
+}
+
+.info__img{
+    max-width: 190px;
+    max-height: 165px;
+}

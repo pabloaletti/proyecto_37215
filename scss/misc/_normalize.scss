@@ -1,0 +1,30 @@
+/* Normalize */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1em;
+    color: #121113;
+}

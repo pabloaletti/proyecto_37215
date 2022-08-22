@@ -1,0 +1,57 @@
+/* Header */
+
+.grad{
+    background: rgba(228,230,195,1);
+    background: -moz-linear-gradient(left, rgba(228,230,195,1) 0%, rgba(228,230,195,1) 11%, rgba(247,247,242,1) 20%, rgba(247,247,242,1) 79%, rgba(228,230,195,1) 91%, rgba(228,230,195,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(228,230,195,1)), color-stop(11%, rgba(228,230,195,1)), color-stop(20%, rgba(247,247,242,1)), color-stop(79%, rgba(247,247,242,1)), color-stop(91%, rgba(228,230,195,1)), color-stop(100%, rgba(228,230,195,1)));
+    background: -webkit-linear-gradient(left, rgba(228,230,195,1) 0%, rgba(228,230,195,1) 11%, rgba(247,247,242,1) 20%, rgba(247,247,242,1) 79%, rgba(228,230,195,1) 91%, rgba(228,230,195,1) 100%);
+    background: -o-linear-gradient(left, rgba(228,230,195,1) 0%, rgba(228,230,195,1) 11%, rgba(247,247,242,1) 20%, rgba(247,247,242,1) 79%, rgba(228,230,195,1) 91%, rgba(228,230,195,1) 100%);
+    background: -ms-linear-gradient(left, rgba(228,230,195,1) 0%, rgba(228,230,195,1) 11%, rgba(247,247,242,1) 20%, rgba(247,247,242,1) 79%, rgba(228,230,195,1) 91%, rgba(228,230,195,1) 100%);
+    background: linear-gradient(to right, rgba(228,230,195,1) 0%, rgba(228,230,195,1) 11%, rgba(247,247,242,1) 20%, rgba(247,247,242,1) 79%, rgba(228,230,195,1) 91%, rgba(228,230,195,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4e6c3', endColorstr='#e4e6c3', GradientType=1 );
+}
+
+.main-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2em;
+    font-size: 1rem;
+    /* background-color: #F7F7F2; */
+    transition: all .20s;
+
+    .main-header__logo{
+        max-width: 300px;
+        min-width: 150px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-header__img{
+        align-items: center;
+        justify-content: center;
+        max-width: 30em;
+    }
+
+
+}
+
+.main-header__nav ul{
+    color: #121113;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+
+    .main-header__nav ul a{
+        color: #121113;
+        font-weight: 700;
+
+        .main-header__nav ul a:hover{
+            background-color: #899878;
+            color: #121113;
+        }
+    }
+
+}
