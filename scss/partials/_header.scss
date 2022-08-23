@@ -21,37 +21,34 @@
     /* background-color: #F7F7F2; */
     transition: all .20s;
 
-    .main-header__logo{
+    &__logo{
         max-width: 300px;
         min-width: 150px;
         align-items: center;
         justify-content: center;
     }
 
-    .main-header__img{
+    &__img{
         align-items: center;
         justify-content: center;
         max-width: 30em;
     }
-
-
-}
-
-.main-header__nav ul{
-    color: #121113;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1em;
-
-    .main-header__nav ul a{
+    
+    &__nav ul{
         color: #121113;
-        font-weight: 700;
-
-        .main-header__nav ul a:hover{
-            background-color: #899878;
-            color: #121113;
-        }
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1em;
+    }
+    
+    &__nav ul a{
+        color: #121113;
+        font-weight: 700;    
     }
 
+    &__nav ul a:hover{
+        background-color: #899878;
+        color: #121113;
+    }
 }

@@ -6,13 +6,13 @@
     background-color: #222725;
     display: flex;
     justify-content: space-evenly;
-}
-
-.footer ul li a {
-    color: #E4E6C3;
-}
-
-.footer__logo img{
-    max-width: 288px;
-    max-height: 93px;
+    
+    & ul li a {
+        color: #E4E6C3;
+    }
+    
+    &__logo img{
+        max-width: 288px;
+        max-height: 93px;
+    }
 }

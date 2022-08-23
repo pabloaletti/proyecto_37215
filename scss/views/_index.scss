@@ -16,19 +16,24 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
 
-.collection-box__title{
-    color: #222725;
-    font-size: 3rem;
-    font-weight: 800;
-}
-
-.collection-box__description{
+    &-box__title{
+        color: #222725;
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    
+    &-box__description{
     color: #899878;
     font: 2rem;
     margin-top: .1em;
     margin-bottom: .6em;
+    }
+
+    &__img{
+        max-width: 560px;
+        max-height: 530px;
+        }
 }
 
 .boton{
@@ -44,10 +49,6 @@
     text-decoration: none;
 }
 
-.collection__img{
-    max-width: 560px;
-    max-height: 530px;
-    }
 
 /* Information */
 
@@ -62,9 +63,9 @@
 
 .info{
     text-align: center;
-}
 
-.info__img{
-    max-width: 190px;
-    max-height: 165px;
+    &__img{
+        max-width: 190px;
+        max-height: 165px;
+    }    
 }
